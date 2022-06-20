@@ -36,7 +36,7 @@ import com.board.domain.MemberVO;
 		@RequestMapping(value = "/board/register.do", method = RequestMethod.GET)
 		public String getRegister() throws Exception {
 			log.info("get register");
-			return "register";
+			return "register"; 
 		}
 		
 		//회원정보 넘기기
